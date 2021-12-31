@@ -5,17 +5,11 @@ https://startbootstrap.com/theme/resume
 
 ## Setup
 ```bash
-mkdir app
-mkdir app/templates
-vi app/main.py
-vi app/__init__.py
-vi app/templates/index.html
-vi app/templates/project.html
+git clone https://github.com/yuyatinnefeld/resume-flask.git
+cd resume-flask
 
-cd ..
-vi requirements.txt
-vi Dockerfile
-vi .dockerignore
+# edit
+vi index.html
 ```
 
 ## Test1 - flask run
