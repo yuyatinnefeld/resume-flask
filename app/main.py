@@ -8,9 +8,9 @@ app = Flask(__name__)
 def home():
     return render_template('/index.html')
 
-@app.route('/welcome')
+@app.route('/project')
 def welcome():
-    return render_template('/welcome.html')
+    return render_template('/projects.html')
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
