@@ -41,7 +41,7 @@ URL: http://127.0.0.1:8000
 ```
 
 ## Cloud Code Deploy
-Service: <YOUR_NAME>-resume
-Region: <GEO_REGION>
-Authentication: Allow unauthenticated invocations
-Build Enviroment: local
+- Service: <YOUR_NAME>-resume
+- Region: <GEO_REGION>
+- Authentication: Allow unauthenticated invocations
+- Build Enviroment: local
